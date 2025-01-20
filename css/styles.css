@@ -31,10 +31,15 @@ body {
 }
 
 /* Layout */
-.header, .curriculum, .stories, .footer {
+.header,
+.curriculum,
+.stories,
+.footer {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 140px;
+  padding-bottom: 60px;
+  border: 1px solid red;
 }
 
 .hamburger-menu {
@@ -87,4 +92,52 @@ body {
 }
 .admission {
   color: #5d58ef;
+}
+
+/* hero styles */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  border: 1px solid red;
+}
+
+.hero-content {
+  max-width: 640px;
+}
+
+.hero-content h1 {
+  color: #fea301;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 61px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-content .black {
+  color: #111;
+}
+
+.hero-content .sky-blue {
+  color: #01ACFD;
+}
+
+.hero-content p {
+  color: #111;
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-img {
+  max-width: 468.60px;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.enroll-btn {
+  font-weight: 700;
+  background: #111;
 }
