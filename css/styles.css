@@ -440,6 +440,43 @@ body {
     display: flex;
     justify-content: flex-start;
   }
+
+  .footer {
+    padding: 4rem 1rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 1.5rem;
+  }
+
+  .kids-education p {
+    margin-bottom: 2rem;
+  }
+
+  .about-school {
+    margin-bottom: 31px;
+  }
+
+  .about-school h4 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .keep-touch h4 {
+    font-size: 22.043px;
+    font-weight: 700;
+    line-height: 22.043px;
+  }
+
+  .footer-menu li {
+    margin-bottom: 17px;
+  }
+
+  .footer-menu li a {
+    font-size: 16.957px;
+    font-weight: 500;
+  }
 }
 
 /* @media (min-width: 577px) and (max-width: 1024px) {
