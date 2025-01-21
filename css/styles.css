@@ -38,12 +38,12 @@ body {
 .header,
 .curriculum,
 .stories,
+.our-stories,
 .footer {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 140px;
   padding-bottom: 60px;
-  border: 1px solid red;
 }
 
 .hamburger-menu {
@@ -109,7 +109,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  border: 1px solid red;
 }
 
 .hero-content {
@@ -146,7 +145,8 @@ body {
   width: 100%;
 }
 
-.enroll-btn {
+.enroll-btn,
+.view-all-btn {
   font-weight: 700;
   background: #111;
   width: 12.31rem;
@@ -268,6 +268,57 @@ body {
   border: none;
 }
 
+/* our stories section */
+.our-stories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("../assets/bg.png"), linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
+  background-position: top;
+  background-size:  contain;
+}
+
+.our-stories-wrapper {
+  
+}
+
+.our-stories h2 {
+  color: #000;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 57.5px; /* 125% */
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+.story-cards-container {
+  display: grid;
+  grid-template-columns: 540px 1fr 1fr;
+  gap: 20px;
+  max-width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.story-big {
+  grid-row: span 2;
+}
+
+.story-card-img img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.story-card {
+  background: #fff;
+  border-radius: 16px;
+}
+
+.our-stories .view-all-btn {
+}
+
 /* footer styles */
 .footer {
   background: #01acfd;
@@ -360,7 +411,8 @@ body {
 
 @media (max-width: 767px) {
   .header,
-  .curriculum {
+  .curriculum,
+  .our-stories {
     padding: 0;
   }
   .navbar {
@@ -410,7 +462,8 @@ body {
     padding: 20px 10px 0 10px;
   }
 
-  .enroll-btn {
+  .enroll-btn,
+  .view-all-btn {
     width: auto;
     padding: 6px 24px;
     font-size: 16px;
@@ -476,6 +529,11 @@ body {
   .footer-menu li a {
     font-size: 16.957px;
     font-weight: 500;
+  }
+
+  /* our stories section */
+  .story-cards-container {
+    grid-template-columns: 1fr;
   }
 }
 

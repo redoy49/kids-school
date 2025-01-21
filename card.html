@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Design</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f8f5f2;
+    }
+
+    .card {
+      max-width: 320px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background-color: #ffffff;
+    }
+
+    .card-image {
+      width: 100%;
+      height: auto;
+    }
+
+    .card-content {
+      padding: 16px;
+      text-align: center;
+      margin-top: -40px; /* Move content up slightly */
+    }
+
+    .card-date {
+      background-color: #7367F0;
+      color: #ffffff;
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 14px;
+      margin-bottom: 12px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      color: #333333;
+      margin: 0;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="assets/story-1.png" alt="Kids playing" class="card-image">
+    <div class="card-content">
+      <div class="card-date">November 19, 2019</div>
+      <h2 class="card-title">Summer math & literacy centres for kids</h2>
+    </div>
+  </div>
+</body>
+</html>
