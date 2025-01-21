@@ -19,7 +19,6 @@ body {
   font-weight: 600;
   line-height: 1.88rem;
   display: inline-block;
-  width: 11.06rem;
   padding: 10px;
   background: #fea301;
   color: #fff;
@@ -95,6 +94,10 @@ body {
   color: #5d58ef;
 }
 
+.contact-btn {
+  width: 12.31rem;
+}
+
 /* hero styles */
 .hero {
   display: flex;
@@ -141,6 +144,7 @@ body {
 .enroll-btn {
   font-weight: 700;
   background: #111;
+  width: 12.31rem;
 }
 
 /* curriculum styles  */
@@ -159,6 +163,7 @@ body {
   align-items: center;
   gap: 1.5rem;
   flex-wrap: wrap;
+  margin-bottom: 80px;
 }
 
 .cards-container .card {
@@ -234,6 +239,30 @@ body {
   color: #8700ff;
 }
 
+/* Arrow btn container */
+.btn-container {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.arrow-btn {
+  color: #FFF;
+text-align: center;
+font-size: 24px;
+font-weight: 900;
+border-radius: 30px;
+background: #FEA301;
+display: flex;
+width: 60px;
+height: 60px;
+justify-content: center;
+align-items: center;
+border: none;
+}
+
 /* Responsive mobile devices */
 
 @media (max-width: 576px) {
@@ -304,6 +333,10 @@ body {
 
   .cards-container {
     padding-bottom: 40px;
+  }
+
+  .btn-container {
+    display: none;
   }
 }
 
