@@ -222,7 +222,6 @@ body {
   line-height: 30.654px;
 }
 
-/* need apply common style in cards-container p and card read more btn */
 .cards-container .card p {
   color: #808080;
   text-align: center;
@@ -314,9 +313,6 @@ body {
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
   background-position: top;
   background-size: contain;
-}
-
-.our-stories-wrapper {
 }
 
 .our-stories h2 {
@@ -447,9 +443,6 @@ body {
 }
 
 .footer-row {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
   flex: 1;
 }
 
