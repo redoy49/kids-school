@@ -24,10 +24,14 @@ body {
   color: #fff;
   text-decoration: none;
   border-radius: 12px;
-  transition: background-color 0.3s ease;
+  transition: opacity 0.3s ease;
   font-weight: 700;
   border: none;
   font-family: Quicksand;
+}
+
+.btn:hover {
+  opacity: 0.8;
 }
 
 .footer-menu,
@@ -557,6 +561,13 @@ body {
     font-size: 16px;
     border-radius: 12px;
   }
+
+  /* marquee section for mobile */
+  .marquee {
+    padding: 16px;
+  }
+
+  /* curriculum section for mobile */
 
   .curriculum h2 {
     font-size: 26px;
