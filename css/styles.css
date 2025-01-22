@@ -27,6 +27,7 @@ body {
   transition: background-color 0.3s ease;
   font-weight: 700;
   border: none;
+  font-family: Quicksand;
 }
 
 .footer-menu,
@@ -34,7 +35,6 @@ body {
   list-style: none;
 }
 
-/* Layout */
 .header,
 .curriculum,
 .stories,
@@ -49,6 +49,15 @@ body {
 .hamburger-menu {
   display: none;
   border: none;
+}
+
+.date {
+  display: inline-block;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 3rem;
+  font-family: Raleway;
 }
 
 /* nav styles */
@@ -280,14 +289,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background: url("../assets/bg.png"), linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
+  background: url("../assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3));
   background-position: top;
-  background-size:  contain;
+  background-size: contain;
 }
 
 .our-stories-wrapper {
-  
 }
 
 .our-stories h2 {
@@ -297,6 +305,7 @@ body {
   line-height: 57.5px; /* 125% */
   margin-top: 60px;
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .story-cards-container {
@@ -321,6 +330,57 @@ body {
 .story-card {
   background: #fff;
   border-radius: 16px;
+}
+
+.btn-1 {
+  background: #3cd8e8;
+  padding: 15px 20px;
+  margin-bottom: 2.25rem;
+}
+
+.btn-2,
+.btn-3,
+.btn-5 {
+  padding: 10px 20px;
+  margin-bottom: 1.5rem;
+}
+
+.btn-2 {
+  background: #95b226;
+}
+
+.btn-3 {
+  background: #5d58f0;
+}
+
+.btn-5 {
+  font-size: 1rem;
+}
+
+.card-text {
+  padding: 0 38px 34px 38px;
+}
+
+.card-text h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 38.347px;
+  max-width: 402px;
+  margin-bottom: 3.2rem;
+}
+
+.first-card-description {
+  color: #666;
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 28.761px;
+}
+
+.simillar-text {
+  font-size: 1rem;
+  line-height: 1.75rem;
+  font-weight: 700;
 }
 
 .our-stories .view-all-btn {
